@@ -134,18 +134,24 @@ for (let i=1; i<finances.length; i++)
   }
 
 
-document.write("Financial Analysis \n");
-document.write("------------------ \n");
+document.write("Financial Analysis");
+document.write("<br>");
+document.write("------------------");
+document.write("<br>");
 console.log("Financial Analysis");
 console.log("------------------");
 let months = finances.length;
 console.log("Total Months: " + months);
-document.write("Total Months: " + months +"\n");
+document.write("Total Months: " + months);
+document.write("<br>");
 console.log("Total: $" + sum);
-document.write("Total: $" + sum + "\n");
-document.write("Average Change: " + average + "\n");
+document.write("Total: $" + sum);
+document.write("<br>");
+document.write("Average Change: " + average);
+document.write("<br>");
 console.log("Average Change: " + average);
-document.write("Greatest Increase in Profits/Losses: " + greatestincreasedate, greatestincrease +"\n");
+document.write("Greatest Increase in Profits/Losses: " + greatestincreasedate, greatestincrease);
+document.write("<br>");
 console.log("Greatest Increase in Profits/Losses: " + greatestincreasedate, greatestincrease);
-document.write("Greatest Decrease in Profits/Losses: " + greatestdecreasedate, greatestdecrease +"\n");
+document.write("Greatest Decrease in Profits/Losses: " + greatestdecreasedate, greatestdecrease);
 console.log("Greatest Decrease in Profits/Losses: " + greatestdecreasedate, greatestdecrease);
